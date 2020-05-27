@@ -46,8 +46,12 @@ inquirer
         name: "githubPicture",
         message: "Where is your GitHub profile picture?"
     },
-
-
+    {
+        type: "input",
+        name: "githubEmail",
+        message: "What is your Github email?"
+    }
+    
 ])
 
 
