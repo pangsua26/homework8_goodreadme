@@ -1,0 +1,19 @@
+{
+  "name": "homework8_goodreadme",
+  "version": "1.0.0",
+  "description": "creating a good readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangsua26/homework8_goodreadme.git"
+  },
+  "author": "pangsua vang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pangsua26/homework8_goodreadme/issues"
+  },
+  "homepage": "https://github.com/pangsua26/homework8_goodreadme#readme"
+}
