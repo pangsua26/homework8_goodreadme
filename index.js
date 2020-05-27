@@ -4,7 +4,7 @@ const util = require("util");
 const axios = require("axios");
 
 inquirer
-.promptUser([
+.prompt([
     {
         type: "input",
         name: "title",
@@ -25,6 +25,13 @@ inquirer
         name: "usage",
         message: "How will the project be used?"
     },
+    {
+        type: "list",
+        name: "license",
+        message: "Which license is the project using?",
+        choices: ["ISC", "MIT", "Apache", "Other"]
+    },
+
 ])
 
 
