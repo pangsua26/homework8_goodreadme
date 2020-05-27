@@ -3,6 +3,7 @@ const inquirer = require("inquirer");
 const util = require("util");
 const axios = require("axios");
 
+// intialize inquirer and prompt user wiht nested object questions
 inquirer
 .prompt([
     {
@@ -52,7 +53,9 @@ inquirer
         message: "What is your Github email?"
     }
 
-]).then(function() {
+]).then(function(data) {
+
+
 
 
 })
