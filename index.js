@@ -31,6 +31,11 @@ inquirer
         message: "Which license is the project using?",
         choices: ["ISC", "MIT", "Apache", "Other"]
     },
+    {
+        type: "input",
+        name: "contributing",
+        message: "Is there anyone else contributing to the project?"
+    }
 
 ])
 
