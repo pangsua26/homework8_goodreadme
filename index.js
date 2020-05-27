@@ -40,7 +40,13 @@ inquirer
         type: "input",
         name: "tests",
         message: "Are there any tests that required for this project?"
-    }
+    },
+    {
+        type: "input",
+        name: "githubPicture",
+        message: "Where is your GitHub profile picture?"
+    },
+
 
 ])
 
