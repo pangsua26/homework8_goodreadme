@@ -65,7 +65,13 @@ inquirer
     ## Tests ${data.tests}
     ## Questions If you have questions, please contact me.    
     `
+        fs.writeFileSync("./new-readme/README.md", readMe, function(error) {
+            if (error) {return console.log(error)};
 
+                console.log("Success!");
+        });
+    
+        
 
 })
 
