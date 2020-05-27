@@ -51,7 +51,10 @@ inquirer
         name: "githubEmail",
         message: "What is your Github email?"
     }
-    
-])
+
+]).then(function() {
+
+
+})
 
 
