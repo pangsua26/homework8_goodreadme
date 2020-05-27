@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const util = require("util");
 const axios = require("axios");
 
-// intialize inquirer and prompt user wiht nested object questions
+// intialize inquirer and prompt user with nested object questions
 inquirer
 .prompt([
     {
@@ -53,10 +53,15 @@ inquirer
         message: "What is your Github email?"
     }
 
+    //then write user response to ReadMe
 ]).then(function(data) {
 
-    const readMe = `# ${data.title} ## Description ${data.description} ## Table of Contents \n1. Title \n2. Description \n3. Table of Contents \n4. Installation \n5. Usage \n6. License \n7. Contributing \n8. Tests \n9. Questions
+    const readMe = `# ${data.title} 
+    ## Description ${data.description} 
+    ## Table of Contents \n1. Title \n2. Description \n3. Table of Contents \n4. Installation \n5. Usage \n6. License \n7. Contributing \n8. Tests \n9. Questions
+    ## Usage ${data.usage}
     
+
     
     `
 
