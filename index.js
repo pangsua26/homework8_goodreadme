@@ -14,7 +14,13 @@ inquirer
         type: "input",
         name: "description",
         message: "What is the project description?"
-    }
+    },
+    {
+        type: "input",
+        name: "installation",
+        message: "What is needed for installtion?"
+    },
+    
 ])
 
 
