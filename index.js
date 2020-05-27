@@ -35,6 +35,11 @@ inquirer
         type: "input",
         name: "contributing",
         message: "Is there anyone else contributing to the project?"
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "Are there any tests that required for this project?"
     }
 
 ])
