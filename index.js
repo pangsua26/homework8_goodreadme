@@ -20,7 +20,11 @@ inquirer
         name: "installation",
         message: "What is needed for installtion?"
     },
-    
+    {
+        type: "input",
+        name: "usage",
+        message: "How will the project be used?"
+    },
 ])
 
 
