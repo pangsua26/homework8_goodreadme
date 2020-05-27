@@ -61,6 +61,8 @@ inquirer
     ## Table of Contents \n1. Title \n2. Description \n3. Table of Contents \n4. Installation \n5. Usage \n6. License \n7. Contributing \n8. Tests \n9. Questions
     ## Usage ${data.usage}
     ## License <img src='https://img.shields.io/badge/License-${data.license}-blue' alt='badge'>
+    ## Constributing ${data.contributing}
+    
 
     
     `
