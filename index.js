@@ -9,6 +9,11 @@ inquirer
         type: "input",
         name: "title",
         message: "What is the project title?"
+    },
+    {
+        type: "input",
+        name: "description",
+        message: "What is the project description?"
     }
 ])
 
