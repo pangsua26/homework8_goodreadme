@@ -1,5 +1,6 @@
-# good readme 
-    ## Description creating a good readme 
+
+    # Generating a good README 
+    ## Description Creating a good readme 
     ## Table of Contents 
 1. Title 
 2. Description 
@@ -10,10 +11,10 @@
 7. Contributing 
 8. Tests 
 9. Questions
-    ## Usage create a good readme
+    ## Usage For users to create a readme
     ## License <img src='https://img.shields.io/badge/License-ISC-blue' alt='badge'>
-    ## Constributing no
-    ## Tests https://github.com/pangsua26
+    ## Constributing No
+    ## Tests None
     ## Questions If you have questions, please contact me.    
     <a href='https://github.com/undefined>Github Profile: undefined</a>
         <img src='https://avatars3.githubusercontent.com/u/11791361?v=4' alt='Github profile picture'>
