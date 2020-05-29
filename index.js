@@ -40,7 +40,7 @@ inquirer
     {
         type: "input",
         name: "tests",
-        message: "Are there any tests that required for this project?"
+        message: "Are there any tests that are required for this project?"
     },
     {
         type: "input",
@@ -71,7 +71,9 @@ inquirer
                 console.log("Success!");
         });
     
-        
+    // github api key and query of github user data
+    const queryUrl = `https://api.github.com/users/${data.githubUsername}`;
+   
 
 })
 
