@@ -76,7 +76,7 @@ inquirer
     axios.get(queryUrl).then(function(response) {
 
         // create new user and profile variables
-        const user = 
+        const user = response.data;
         const githubProfile =
         
     })
