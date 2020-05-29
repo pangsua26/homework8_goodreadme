@@ -65,7 +65,7 @@ inquirer
     ## Tests ${data.tests}
     ## Questions If you have questions, please contact me.    
     `
-        fs.writeFileSync("./new-readme/README.md", readMe, function(error) {
+        fs.writeFileSync("./new_readme/README.md", readMe, function(error) {
             if (error) {return console.log(error)};
 
                 console.log("Success!");
@@ -79,6 +79,12 @@ inquirer
         const user = response.data;
         const githubProfile = `<a href='${user.html_url}>Github Profile: ${user.login}</a>
         <img src='${user.avatar_url}' alt='Github profile picture'>`
+
+        fs.appendFile(`./new_readme/README.md`, githubProfile, function(error) {
+            if(error) {throw error};
+
+            console.log(`Github profile info added`);
+        })
         
     })
    
