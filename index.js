@@ -80,11 +80,14 @@ inquirer
         const githubProfile = `<a href='${user.html_url}>Github Profile: ${user.login}</a>
         <img src='${user.avatar_url}' alt='Github profile picture'>`
 
+        // append profile information to new readme
         fs.appendFile(`./new_readme/README.md`, githubProfile, function(error) {
             if(error) {throw error};
 
             console.log(`Github profile info added`);
         })
+
+        // append user email to new readme
         
     })
    
