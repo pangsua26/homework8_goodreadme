@@ -73,6 +73,7 @@ inquirer
     
     // github api key and query of github user data
     const queryUrl = `https://api.github.com/users/${data.githubUsername}`;
+    axios.get(queryUrl).then(function(response) 
    
 
 })
