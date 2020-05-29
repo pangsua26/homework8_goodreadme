@@ -77,7 +77,7 @@ inquirer
 
         // create new user and profile variables
         const user = response.data;
-        const githubProfile =
+        const githubProfile = `<a href='${user.html_url}>Github Profile: ${user.login}</a>`
         
     })
    
