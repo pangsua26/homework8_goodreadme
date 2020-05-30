@@ -92,7 +92,7 @@ inquirer
 
         // create new user and profile variables
         const user = response.data;
-        const githubProfile = `<a href='${user.html_url}>Github Profile: ${user.login}</a>
+        const githubProfile = `<a href='${user.html_url}'>Github Profile: ${user.login}</a>
         <img src='${user.avatar_url}' alt='Github profile picture'>`
 
         // append profile information to new readme
