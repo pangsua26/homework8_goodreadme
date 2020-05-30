@@ -58,8 +58,7 @@ inquirer
 
     const readMe = 
     `# ${data.title}
-    ${data.summary}
-
+    
     ## Description
     ${data.description} 
 
