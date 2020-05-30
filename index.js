@@ -56,29 +56,33 @@ inquirer
     //then write user response to ReadMe
 ]).then(function(data) {
 
-    const readMe = 
-    `# ${data.title}
+const readMe = 
+`# ${data.title}
     
-    ## Description
+## Description
     ${data.description} 
 
-    ## Table of Contents
+## Table of Contents
      \n1. Title \n2. Description \n3. Table of Contents \n4. Installation \n5. Usage \n6. License \n7. Contributing \n8. Tests \n9. Questions
 
-    ## Installation
+## Installation
     ${data.installation}
 
-    ## Usage
+## Usage
     ${data.usage}
 
-    ## License
+## License
     <img src='https://img.shields.io/badge/License-${data.license}-blue' alt='badge'>
 
-    ## Constributing
+## Constributing
     ${data.contributing}
-    ## Tests    ${data.tests}
-    ## Questions
-    If you have questions, please contact me.`
+   
+## Tests    
+    ${data.tests}
+    
+## Questions
+    If you have questions, please contact me.
+`
 
         fs.writeFileSync("./new_readme/README.md", readMe, function(error) {
             if (error) {return console.log(error)};
