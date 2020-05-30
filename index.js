@@ -44,15 +44,10 @@ inquirer
     },
     {
         type: "input",
-        name: "githubPicture",
-        message: "Where is your GitHub profile picture?"
-    },
-    {
-        type: "input",
-        name: "githubEmail",
-        message: "What is your Github email?"
+        name: "githubUsername",
+        message: "Where is your GitHub user name?"
     }
-
+   
     //then write user response to ReadMe
 ]).then(function(data) {
 
@@ -76,10 +71,7 @@ inquirer
 
     ## Constributing
     ${data.contributing}
-
-    ## Tests
-    ${data.tests}
-    
+    ## Tests    ${data.tests}
     ## Questions
     If you have questions, please contact me.`
 
