@@ -96,6 +96,15 @@ inquirer
 
                 console.log(`Github email added`);
         })}
+        else {
+            fs.appendFile(`./new_readme/README.md`, `Email: Not available`, function(error) {
+                if(error) {throw error};
+
+                console.log("Email not available")
+            });
+            
+    
+        }
         
     })
    
