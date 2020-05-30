@@ -71,8 +71,7 @@ const readMe =
 ## Usage
     ${data.usage}
 
-## License
-    <img src='https://img.shields.io/badge/License-${data.license}-blue' alt='badge'>
+## License <img src='https://img.shields.io/badge/License-${data.license}-blue' alt='badge'>
 
 ## Constributing
     ${data.contributing}

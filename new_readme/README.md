@@ -19,10 +19,9 @@
     node.js and npm install
 
 ## Usage
-    User to create a new README
+    User to create a new REAMDE
 
-## License
-    <img src='https://img.shields.io/badge/License-ISC-blue' alt='badge'>
+## License <img src='https://img.shields.io/badge/License-ISC-blue' alt='badge'>
 
 ## Constributing
     no
