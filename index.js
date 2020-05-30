@@ -89,8 +89,13 @@ inquirer
 
             console.log(`Github profile info added`);
         })
-
         // append user email to new readme
+        if (user.email !== null) {
+            fs.appendFile('./new_readme/README.md', `Email: ${user.email}`, function(error) {
+                if(error) {throw error};
+
+                console.log(`Github email added`);
+        })}
         
     })
    
