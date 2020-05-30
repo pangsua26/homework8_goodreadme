@@ -1,8 +1,7 @@
 # Generating a good README
-    undefined
-
+    
     ## Description
-    creating a README 
+    Creating a README 
 
     ## Table of Contents
      
@@ -20,7 +19,7 @@
     node.js
 
     ## Usage
-    For users to create a README
+    Users to create a README
 
     ## License
     <img src='https://img.shields.io/badge/License-ISC-blue' alt='badge'>
@@ -29,5 +28,5 @@
     No
     ## Tests    None
     ## Questions
-    If you have questions, please contact me.Email: Not available<a href='https://github.com/pangsua26>Github Profile: pangsua26</a>
-        <img src='https://avatars2.githubusercontent.com/u/62150408?v=4' alt='Github profile picture'>
+    If you have questions, please contact me.<a href='https://github.com/pangsua26>Github Profile: pangsua26</a>
+        <img src='https://avatars2.githubusercontent.com/u/62150408?v=4' alt='Github profile picture'>Email: Not available

@@ -49,8 +49,8 @@ inquirer
     },
     {
         type: "input",
-        name: "githubUsername",
-        message: "Where is your GitHub user name?"
+        name: "githubEmail",
+        message: "What is your GitHub email?"
     }
    
     //then write user response to ReadMe
