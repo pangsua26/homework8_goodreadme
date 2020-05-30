@@ -1,8 +1,5 @@
 # homework_goodreadme
 
-### The following animation demonstrates the application functionality:
-### [README video](https://drive.google.com/file/d/1yvvYVcZxCQbeaRxU_IQK0lW7EHihsnBI/view)
-
 ## Project Description
 The purpose of this activity is to create a command-line application that generates a README.md from a user's input. Once the user have answered allt he the command prompts, a new README.md will be created with the following contents:
 1. Project title
@@ -14,6 +11,9 @@ The purpose of this activity is to create a command-line application that genera
 7. Contributing
 8. Tests
 9. Questions for user GitHub profile picture and email
+
+## The following README video demonstrates the application functionality:
+### [README video LINK](https://drive.google.com/file/d/1yvvYVcZxCQbeaRxU_IQK0lW7EHihsnBI/view)
 
 ## Experience
 I found that starting off was easier than normal thanks to the mini-project activity (prompt) in week 9. The code was also frustrating at times but with a lot searchs and review (previous class activities, Google, YouTube, Dev Moxzilla & Stack Overflow), I was able to mostly work through them.
