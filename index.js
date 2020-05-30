@@ -57,16 +57,14 @@ inquirer
 ]).then(function(data) {
 
     const readMe = `# ${data.title} 
-
-    \n## Description: ${data.description} 
-
-    \n## Table of Contents \n1. Title \n2. Description \n3. Table of Contents \n4. Installation \n5. Usage \n6. License \n7. Contributing \n8. Tests \n9. Questions
-
-    \n## Usage: ${data.usage}
-    \n## License: <img src='https://img.shields.io/badge/License-${data.license}-blue' alt='badge'>
-    \n## Constributing: ${data.contributing}
-    \n## Tests: ${data.tests}
-    \n## Questions: If you have questions, please contact me.    
+    ## Description: ${data.description} 
+    ## Table of Contents: \n1. Title \n2. Description \n3. Table of Contents \n4. Installation \n5. Usage \n6. License \n7. Contributing \n8. Tests \n9. Questions
+    ## Installation
+    ## Usage: ${data.usage}
+    ## License: <img src='https://img.shields.io/badge/License-${data.license}-blue' alt='badge'>
+    ## Constributing: ${data.contributing}
+    ## Tests: ${data.tests}
+    ## Questions: If you have questions, please contact me.    
     `
         fs.writeFileSync("./new_readme/README.md", readMe, function(error) {
             if (error) {return console.log(error)};
