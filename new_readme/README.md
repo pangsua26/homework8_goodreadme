@@ -1,6 +1,8 @@
 #Generating a good README 
+
     ## Description
-    creating a good readme 
+    Creating a README 
+
     ## Table of Contents
      
 1. Title 
@@ -12,16 +14,19 @@
 7. Contributing 
 8. Tests 
 9. Questions
+
     ## Installation
     node.js
+
     ## Usage
-    Users to create a readme
+    For users to create a README
+
     ## License
     <img src='https://img.shields.io/badge/License-ISC-blue' alt='badge'>
+
     ## Constributing
-    no
-    ## Tests
-    none
+    No
+    ## Tests    None
     ## Questions
-    If you have questions, please contact me.<a href='https://github.com/undefined>Github Profile: undefined</a>
-        <img src='https://avatars3.githubusercontent.com/u/11791361?v=4' alt='Github profile picture'>Email: Not available
+    If you have questions, please contact me.Email: Not available<a href='https://github.com/pangsua26>Github Profile: pangsua26</a>
+        <img src='https://avatars2.githubusercontent.com/u/62150408?v=4' alt='Github profile picture'>

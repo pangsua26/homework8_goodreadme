@@ -46,13 +46,18 @@ inquirer
         type: "input",
         name: "githubUsername",
         message: "Where is your GitHub user name?"
+    },
+    {
+        type: "input",
+        name: "githubUsername",
+        message: "Where is your GitHub user name?"
     }
    
     //then write user response to ReadMe
 ]).then(function(data) {
 
     const readMe = 
-    `#${data.title} 
+    `# ${data.title} 
 
     ## Description
     ${data.description} 
@@ -102,21 +107,14 @@ inquirer
                 if(error) {throw error};
 
                 console.log(`Github email added`);
-        })}
-        // error if email is not available
-        else {
+        })} else {
             fs.appendFile(`./new_readme/README.md`, `Email: Not available`, function(error) {
                 if(error) {throw error};
 
                 console.log("Email not available")
             });
-            
-    
-        }
-        
-    })
-   
-
-})
+        }; 
+    });
+});
 
 
