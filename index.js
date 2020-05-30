@@ -111,7 +111,12 @@ const readMe =
                 if(error) {throw error};
 
                 console.log(`Github email added`);
-        })} 
+        })} else {
+            // fs.appendFile(`./new_readme/README.md`, `Email: Not Available`, function(error) {
+            //     if(error) {throw error};
+            // });
+            // console.log ("No email available")
+        };
     });
 })
 
