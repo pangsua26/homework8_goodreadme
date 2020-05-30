@@ -1,7 +1,7 @@
-# test
+# Creating a good README
     
 ## Description
-    test 
+    Command line to create or generate a README 
 
 ## Table of Contents
      
@@ -16,19 +16,19 @@
 9. Questions
 
 ## Installation
-    test
+    node.js and npm install
 
 ## Usage
-    test
+    User to create a new README
 
 ## License
     <img src='https://img.shields.io/badge/License-ISC-blue' alt='badge'>
 
 ## Constributing
-    test
+    no
    
 ## Tests    
-    test
+    None
     
 ## Questions
     If you have questions, please contact me.

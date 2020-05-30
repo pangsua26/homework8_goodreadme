@@ -1,6 +1,6 @@
 # homework_goodreadme
 
-![README video]()
+![README video](./assets/commandReadme.webm)
 
 ## Project Description
 The purpose of this activity is to create a command-line application that generates a README.md from a user's input. Once the user have answered allt he the command prompts, a new README.md will be created with the following contents:
