@@ -103,6 +103,7 @@ inquirer
 
                 console.log(`Github email added`);
         })}
+        // error if email is not available
         else {
             fs.appendFile(`./new_readme/README.md`, `Email: Not available`, function(error) {
                 if(error) {throw error};
