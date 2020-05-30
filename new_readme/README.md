@@ -19,7 +19,7 @@
     node.js
 
 ## Usage
-    User to create a README
+    create README
 
 ## License
     <img src='https://img.shields.io/badge/License-ISC-blue' alt='badge'>
@@ -33,4 +33,4 @@
 ## Questions
     If you have questions, please contact me.
 <a href='https://github.com/pangsua26'>Github Profile: pangsua26</a>
-        <img src='https://avatars2.githubusercontent.com/u/62150408?v=4' alt='Github profile picture'>Email: Not available
+        <img src='https://avatars2.githubusercontent.com/u/62150408?v=4' alt='Github profile picture'>
