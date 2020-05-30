@@ -57,7 +57,8 @@ inquirer
 ]).then(function(data) {
 
     const readMe = 
-    `# ${data.title} 
+    `# ${data.title}
+    ${data.summary}
 
     ## Description
     ${data.description} 
@@ -111,7 +112,7 @@ inquirer
             fs.appendFile(`./new_readme/README.md`, `Email: Not available`, function(error) {
                 if(error) {throw error};
             });
-            
+
             console.log("Email not available")
         }; 
     });
