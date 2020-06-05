@@ -1,7 +1,7 @@
-# Creating a good README
+# Creating a README
     
 ## Description
-    Command line to create or generate a README 
+    Application to create a readme 
 
 ## Table of Contents
      
@@ -16,10 +16,10 @@
 9. Questions
 
 ## Installation
-    node.js and npm install
+    npm and node.js
 
 ## Usage
-    User to create a new REAMDE
+    Any user to create or generate a readme
 
 ## License <img src='https://img.shields.io/badge/License-ISC-blue' alt='badge'>
 
@@ -31,5 +31,5 @@
     
 ## Questions
     If you have questions, please contact me.
-<a href='https://github.com/pangsua26'>Github Profile: pangsua26</a>
-        <img src='https://avatars2.githubusercontent.com/u/62150408?v=4' alt='Github profile picture'>Email: Not Available
+Email: Not Available<a href='https://github.com/pangsua26'>Github Profile: pangsua26</a>
+        <img src='https://avatars2.githubusercontent.com/u/62150408?v=4' alt='Github profile picture'>

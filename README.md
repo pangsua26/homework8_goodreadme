@@ -13,7 +13,7 @@ The purpose of this activity is to create a command-line application that genera
 9. Questions for user GitHub profile picture and email
 
 ## The following README video demonstrates the application functionality:
-### [README video LINK](https://drive.google.com/file/d/1yvvYVcZxCQbeaRxU_IQK0lW7EHihsnBI/view)
+### [README video LINK](https://drive.google.com/file/d/1ClXcoFjEhhJ2bfGzG5zg0JE9noO_A6jg/view)
 
 ## Experience
 I found that starting off was easier than normal thanks to the mini-project activity (prompt) in week 9. The code was also frustrating at times but with a lot searchs and review (previous class activities, Google, YouTube, Dev Moxzilla & Stack Overflow), I was able to mostly work through them.
